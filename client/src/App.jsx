@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import NewsBoard from "./Components/NewsBoard";
+import Footer from "./Components/Footer";
 
 function App() {
   const [category, setCategory] = useState("general");
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar setCategory={setCategory} />
       <NewsBoard category={category} />
+      <Footer />
     </>
   );
 }

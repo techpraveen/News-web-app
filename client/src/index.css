@@ -1,0 +1,16 @@
+ li{
+    cursor: pointer;
+    align-items: center;
+     gap: 10px;
+     display: flex;
+     margin: 10px 0px;
+     justify-content: center;
+     text-align: center;
+     list-style: none;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 400;
+     
+ }
